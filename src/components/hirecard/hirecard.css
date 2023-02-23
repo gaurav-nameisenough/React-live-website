@@ -1,0 +1,83 @@
+.hirecard{
+    background-color: #ECEDF9;
+    margin-top: 2rem;
+    width: 40rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.hirecard-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #616161;
+}
+.hirecard-profile{
+    display: flex;
+    align-items: center;
+    
+}
+.hirecard-profile > p {
+    border-left: 1px solid rgb(130, 102, 197);
+}
+.hirecard-profile-name{
+    padding-left: 2rem;
+    margin-left: 4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:black;
+}
+.hirecard-description{
+    display: flex;
+    flex-direction: column;
+}
+.hirecard-experience{
+    display:flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.hirecard-experience > span{
+    margin-left: 1rem;
+}
+.hirecard-detail{
+    margin-top: 1rem;
+}
+.hirecard-available{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.hirecard-available-hourly, .hirecard-available-overnight{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.hirecard-available-hourly > span{
+    margin-left: 1rem;
+}
+.hirecard-available-overnight > span{
+    margin-left: 1rem;
+}
+.hirecard-icon{
+    font-size: 1.5rem;
+}
+
+/* responsive mobile */
+
+@media screen and (max-width:540px){
+    .hirecard-detail{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .hirecard-profile-name{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .hirecard-profile-img{
+        height: 4rem;
+        width: 4rem;
+    }
+}

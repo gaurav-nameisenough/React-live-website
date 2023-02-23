@@ -1,0 +1,157 @@
+.topbar{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+
+.topbar-left{
+    flex: 3;
+}
+.topbar-toggler{
+    display: none;
+    font-size: 2rem;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.topbar-title{
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.topbar-center{
+    flex: 6;
+    height: 100%;
+}
+.topbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.topbar-listitem{
+    font-size: 1.2rem;
+    margin-right: 2.3rem;
+    list-style: none;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.topbar-listitem-box{
+    position: fixed;
+    top: 5rem;
+    left:20rem;
+    background-color: white;
+    width: 60%;
+    box-shadow: 0.5rem 0.5rem #ecedf9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.topbar-listitem-first{
+    list-style: none;
+    margin: 0;    
+}
+.topbar-listitem-firstitem{
+    width: 40%;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.topbar-listitem-firstitem:hover{
+    background-color: #ecedf9;
+    color:#585DCD;
+}
+.topbar-listitem-firstitem > h1{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.topbar-listitem-firstitem > p{
+    font-size: 1rem;
+    margin: 0;
+}
+.topbar-listitem-btn{
+    width: 40%;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+    padding: 1rem;
+    color: #585DCD;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 1rem;
+}
+.topbar-listitem-btn:hover{
+    background-color: #ecedf9;
+}
+
+.topbar-downarrow{
+    margin-left: 0.5rem;
+}
+.topbar-right{
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.topbar-login{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.8rem 1.25rem;
+    margin-right: 2.1rem;
+    background-color: white;
+    color: #494FC9;
+    border: 0;
+    border-radius: 1.25rem;
+}
+.topbar-login:hover{
+    background-color: #ecedf9;
+}
+.topbar-gs{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 2.1rem;
+    padding: 0.8rem 1.25rem;
+    background-color: #494FC9;
+    color:white;
+    border-radius: 1.25rem;
+}
+.topbar-gs:hover{
+    background-color: #2f349d;
+}
+
+/* responsive design */
+
+@media screen and (max-width:540px) {
+    .topbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+   .topbar-toggler{
+    margin-left: 0.5rem;
+    display:inline-block;
+   }
+   .topbar-right{
+    display: none;
+   }
+   .topbar-center{
+    width: 100%;
+   }
+   .topbar-list{
+    display: none;
+    flex-direction: column;
+   }
+   .topbar-listitem{
+    text-align: center;
+    background-color: white;
+   }
+   .active{
+    display: flex;
+   }
+}

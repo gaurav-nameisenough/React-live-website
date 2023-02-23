@@ -1,0 +1,44 @@
+.static{
+    background-color: #ecedf9;
+}
+.static-wrapper{
+    display: flex;
+    align-items: center;
+}
+.static-section{
+    flex: 1;
+}
+.static-head{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #2f349d;
+    margin-top: 1rem;
+}
+.static-para{
+    font-size: 1.1rem;
+}
+
+/* responsive mobile */
+
+@media screen and (max-width:540px){
+    .static{
+        padding: 1rem;
+    }
+    .static-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .static-head{
+        margin-top: 0rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .static-para{
+        color: #424242;
+    }
+
+    .static-section{
+        flex: 50%;
+    }
+}

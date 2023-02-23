@@ -1,0 +1,33 @@
+.clients{
+    background-color: #ecedf9;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.clients-title{
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+.clients-content{
+    display: flex;
+    justify-content: space-around;
+}
+.clients-content-info{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-weight: 510;
+}
+.clients-header{
+    font-size: 5rem;
+    color: orange;
+}
+.clients-para{
+    text-align: center;
+}
+.clients-img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}

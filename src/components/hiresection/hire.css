@@ -1,0 +1,72 @@
+.hiresection-wrapper{
+    margin-top:6rem;
+    margin-bottom: 6rem;
+}
+.hiresection-header{
+    display: flex;
+    flex-direction: column;
+}
+.hiresection-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.hiresection-bulletpoints{
+    margin-top: 2rem;
+    display: flex;
+}
+.hiresection-bulletpoint{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.hiresection-bulletpoint > span{
+    margin-left: 1rem;
+}
+.hiresection-bullet{
+    font-size: 2rem;
+}
+.hiresection-cards{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.hiresection-btn{
+    border: 1px solid blue;
+    border-radius : 1rem;
+    padding:1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #494FC9;
+    margin-top: 3rem;
+    background-color: white;
+}
+.hiresection-btn:hover{
+    background-color: #ecedf9;
+}
+
+/* responsive mobile */
+
+@media screen and (max-width:540px){
+    .hiresection{
+        padding: 0 1rem;
+    }
+
+    .hiresection-title {
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    .hiresection-bulletpoints{
+        flex-direction: column;
+    }
+    
+    .hiresection-bulletpoint{
+        margin-bottom: 0.5rem;
+    }
+
+    .hiresection-bullet{
+        color: #494FC9;
+    }
+
+}

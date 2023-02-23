@@ -1,0 +1,81 @@
+.relationship-wrapper{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.relationship-title{
+    font-size: 2.2rem;
+    font-weight: 550;
+    line-height: 3rem;
+}
+.relationship-content{
+    display: flex;
+}
+.relationship-options{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+.relationship-option{
+    margin-top: 4rem;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.relationship-option-icons{
+    width: 4rem;
+    height: 4rem;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.relationship-option-icon{
+    font-size: 2rem;
+    color: white;
+}
+.relationship-option-title{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.relationship-option-para{
+    margin-top: 0.5rem;
+    font-style: 1rem;
+    font-weight: 540;
+}
+.relationship-chats{
+    flex: 1;
+    padding-top: 5rem;
+}
+.relationship-chat{
+    display: block;
+    background-color: #ecedf9;
+    width:fit-content;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-weight: 550;
+    margin-left: 5rem;
+}
+.relationship-btn{
+    align-self: flex-start;
+    margin-top: 3rem;
+    background-color: transparent;
+    border: 1px solid #a2a5e4;
+    color: #494fc9;
+    padding:1rem;
+    border-radius: 1rem;
+    font-weight: 550;
+}
+.relationship-btn:hover{
+    background-color: #ecedf9;;
+}
+.rightit{
+    margin-left: 15rem;
+}

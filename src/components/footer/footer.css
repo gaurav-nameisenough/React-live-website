@@ -1,0 +1,79 @@
+.footer{
+    background-color: #2b2f8f;
+    color: white;
+}
+.footer-wrapper{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.footer-temp{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-temp-title{
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin-bottom: 1.5rem;
+}
+.footer-main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main-logogrid{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main-logogrid-items{
+    margin-left: 3rem;
+}
+.footer-main-logogrid-items > p{
+    font-size: 0.8rem;
+}
+.footer-main-one{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-main-copyright{
+    margin-top: 8rem;
+}
+.footer-main-two-title{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.footer-main-two-btn{
+    margin-top: 2rem;
+    display: flex;
+}
+.footer-main-two-btn > img{
+    margin-right: 1rem;
+}
+.footer-main-three > h1{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.footer-main-three-icons{
+    display: flex;
+}
+.footer-main-three-points{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-main-three-points > span{
+    margin-left: 1rem;
+}
+.circle{
+    margin-right: 1rem;
+    width:3rem;
+    height: 3rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}

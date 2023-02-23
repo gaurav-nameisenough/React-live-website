@@ -1,0 +1,27 @@
+.faq-question{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.faq-question-box{
+    font-size: 2rem;
+}
+.faq-question-box > i{
+    cursor: pointer;
+}
+.faq-question-box > span{
+    margin-left: 1.2rem;
+}
+.faq-ans-box{
+    display: none;
+    border-left: 1px solid white;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    padding-left: 0.8rem;
+}
+
+.faq-ans-box > p{
+    font-size: 1.1rem;
+}
+.active{
+    display: block; 
+}

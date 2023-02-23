@@ -1,0 +1,42 @@
+.carertype{
+    background-color: #ecedf9;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.carertype-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.carertype-title{
+    font-size: 2rem;
+    font-weight: 540;
+}
+.carertype-content{
+    margin-top: 3rem;
+    display: flex;
+}
+.carertype-hourly,.carertype-overnight,.carertype-livein{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.carertype-heading{
+    font-size: 2.2rem;
+    font-weight: 550;
+    margin-top: 2rem;
+}
+.carertype-icon{
+    font-size: 2.2rem;
+    color:#494FC9;
+}
+
+.carertype-btn{
+    align-self: flex-start;
+    margin-top: 3rem;
+    background-color: transparent;
+    border: 1px solid #a2a5e4;
+    color: #494fc9;
+    padding:1rem;
+    border-radius: 1rem;
+    font-weight: 550;
+}
